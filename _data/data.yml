@@ -1,6 +1,6 @@
 basics:
   name: Gonzalo Andrés Burgos Fuentes
-  label: Ingeniero en Física y MSc. en Física, estudiante MSc. en Astronomía
+  label: Ingeniero en Física y MSc. en Física, estudiante de MSc. en Astronomía
   email: gburgos.work@gmail.com
   phone: "+56 9 5171 8508"
   website: yourwebsite.com
@@ -15,100 +15,79 @@ basics:
       username: GonUchile
       url: https://github.com/GonUchile
 
-summary: >
-  Ingeniero en Física con MSc. en Física y estudiante de MSc. en Astronomía, con una amplia trayectoria liderando equipos de desarrollo en instrumentación astronómica de radiofrecuencia. Especializado en diseño, implementación y validación de hardware analógico y digital para algoritmos de interferometría, incluyendo VLBI, beamforming y pseudo-correlación.
-
-experience:
-  - company: Universidad de Chile
-    position: Ingeniero de proyecto
-    location: Santiago, Chile
-    startDate: 2024-04
-    endDate: Present
-    summary: >
-      Líder del desarrollo e implementación del radiotelescopio CHARTs. Diseño de hardware analógico y digital para algoritmos de correlación y detección de eventos transitorios en plataformas FPGA y GPU.
-    highlights:
-      - Desarrollo en multiplexación FDM y demultiplexación (0.1 - 2.5 GHz)
-      - Interconexión mediante red óptica 100 GBe/s
-      - Gestión de estudiantes
-
-  - company: Universidad de Concepción - Instituto de Investigaciones Tecnológicas
-    position: Investigador
-    location: Concepción, Chile
-    startDate: 2023-07
-    endDate: 2024-03
-    summary: Desarrollo de radar en banda L sobre plataforma FPGA ZCU-208
-
-  - company: LAMP (Laboratory for Atomic & Molecular Physics)
-    position: Investigador
-    location: Concepción, Chile
-    startDate: 2023-10
-    endDate: 2023-12
-    summary: Desarrollo de controlador RF (0.01-2GHz) para láser de enfriamiento cuántico
-
-  - company: Centro para la Instrumentación Astronómica (CePIA)
-    position: Investigador
-    location: Concepción, Chile
-    startDate: 2017
-    endDate: 2023
-    summary: Desarrollo de back-ends digitales en FPGA para radiómetros y tecnologías MMIC
-
-  - company: Colegio Olimpia Guzmán Bello
-    position: Profesor
-    location: Concepción, Chile
-    startDate: 2023-04
-    endDate: 2023-06
-    summary: Docencia para estudiantes de enseñanza media, basada en la experimentación
-
-  - company: Universidad de Concepción
-    position: Asistente de I+D
-    location: Concepción, Chile
-    startDate: 2022
-    endDate: 2022
-    summary: Desarrollo de laboratorios docentes para Ingeniería Física
-
-  - company: Universidad de Concepción
-    position: Presidente Consejo Estudiantil
-    location: Concepción, Chile
-    startDate: 2014
-    endDate: 2017
-    summary: Participación en acreditación, apoyo estudiantil y divulgación científica
+career-profile:
+  - summary: |
+      Ingeniero en Física con MSc. en Física y estudiante de MSc. en Astronomía, con amplia experiencia liderando equipos de desarrollo en instrumentación astronómica de radiofrecuencia. Especializado en hardware analógico y digital para algoritmos de interferometría como VLBI, beamforming y pseudo-correlación.
 
 education:
-  - institution: Universidad de Chile
-    area: Astronomía
-    studyType: MSc.
-    startDate: 2025-03
-    endDate: Present
-    thesis: Real-time radio transient detection using FPGA and GPU architecture
+  - degree: MSc. en Astronomía
+    university: Universidad de Chile
+    time: 2025 - Presente
+    details: Trabajo de curso: Real-time radio transient detection using FPGA and GPU architecture
 
-  - institution: Universidad de Concepción
-    area: Física
-    studyType: MSc.
-    startDate: 2023
-    endDate: 2023
-    thesis: The Ionospheric Spectral Imager (ISI): A digital spectrometric Riometer
+  - degree: MSc. en Física
+    university: Universidad de Concepción
+    time: 2023
+    details: Trabajo de curso: The Ionospheric Spectral Imager (ISI): A digital spectrometric Riometer
 
-  - institution: Universidad de Concepción
-    area: Ingeniería en Física
-    studyType: Ingeniería
-    endDate: 2022
-    thesis: Riometer digital para caracterización ionosférica
+  - degree: Ingeniería en Física
+    university: Universidad de Concepción
+    time: hasta 2022
+    details: Trabajo de curso: Riometer digital para caracterización ionosférica
 
-  - institution: Universidad de Concepción
-    area: Física
-    studyType: Licenciatura
-    endDate: 2017
+  - degree: Licenciatura en Física
+    university: Universidad de Concepción
+    time: hasta 2017
 
-publications:
-  - name: Ionospheric absorption with a 38 MHz ROACH-based array
-    publisher: BAAA
-    releaseDate: 2020
-    url: https://ui.adsabs.harvard.edu/abs/2020BAAA...61C..86B/abstract
+experience:
+  - role: Ingeniero de Proyecto
+    time: 2024 - Presente
+    company: Universidad de Chile
+    company_url: 
+    details: |
+      Líder en el desarrollo del radiotelescopio CHARTs. Desarrollo de hardware FDM/DEMUX (0.1–2.5 GHz) y sistemas digitales para correlación y detección en FPGA y GPU, conectados por red óptica de 100 GBe/s. Supervisión de estudiantes.
 
-  - name: A Pseudo-Correlation MMIC-based 183 GHz Water Vapor Radiometer
-    publisher: IEEE GSMM
-    releaseDate: 2018
-    url: https://ieeexplore.ieee.org/document/8439550
+  - role: Investigador
+    time: 2023 - 2024
+    company: Universidad de Concepción - IIT
+    company_url: 
+    details: |
+      Desarrollo de radar en banda L (1–2 GHz) sobre plataforma FPGA ZCU-208. Simulación, fabricación y prueba de circuitos Tx/Rx.
+
+  - role: Investigador
+    time: 2023
+    company: LAMP (UdeC)
+    company_url: 
+    details: |
+      Diseño de controlador RF (0.01–2 GHz) para láser de enfriamiento cuántico en estructura hiperfina.
+
+  - role: Investigador
+    time: 2017 - 2023
+    company: CePIA
+    company_url: 
+    details: |
+      Desarrollo de back-ends digitales en FPGA, algoritmos de espectrometría, pseudo-correlación y MMIC. Coordinador de la Red Chilena de Instrumentación Astronómica (ChAIN).
+
+  - role: Profesor
+    time: 2023
+    company: Colegio Olimpia Guzmán Bello
+    company_url: 
+    details: |
+      Docente de física para enseñanza media, clases basadas en experimentación.
+
+  - role: Asistente de I+D
+    time: 2022
+    company: Universidad de Concepción
+    company_url: 
+    details: |
+      Desarrollo de 4 laboratorios docentes para Ingeniería Física, incluyendo procesamiento de señales, electrónica y prototipado 3D.
+
+  - role: Presidente Consejo Estudiantil
+    time: 2014 - 2017
+    company: Universidad de Concepción
+    company_url: 
+    details: |
+      Apoyo estudiantil, participación en comité de carrera, acreditación y coordinación de charlas científicas.
 
 skills:
   - name: Software y programación
@@ -121,7 +100,7 @@ skills:
   - name: Gestión de proyectos
     keywords:
       - Planificación estratégica, liderazgo, manejo presupuestario
-      - Transferencia tecnológica y coordinación de equipos multidisciplinarios
+      - Transferencia tecnológica, coordinación de equipos multidisciplinarios
 
   - name: Comunicación científica
     keywords:
@@ -130,14 +109,25 @@ skills:
 
   - name: Técnicas específicas
     keywords:
-      - Instrumentación de RF, montaje y pruebas con VNA, espectrómetros, FPGA, MMIC, CPU y GPU
-      - Procesamiento de señales y automatización de procesos
+      - Instrumentación de RF, pruebas con VNA, espectrómetros, FPGA, MMIC, CPU y GPU
+      - Procesamiento de señales, automatización de procesos
 
 languages:
-  - language: Español
-    fluency: Nativo
-  - language: Inglés
-    fluency: B1
+  - idiom: Español
+    level: Nativo
+  - idiom: Inglés
+    level: B1
 
 interests:
-  - name: Astronomía, tecnología, ciencia aplicada, docencia, divulgación científica
+  - item: Astronomía, tecnología, ciencia aplicada, docencia, divulgación científica
+
+publications:
+  - title: Ionospheric absorption with a 38 MHz ROACH-based array
+    publisher: BAAA
+    date: 2020
+    link: https://ui.adsabs.harvard.edu/abs/2020BAAA...61C..86B/abstract
+
+  - title: A Pseudo-Correlation MMIC-based 183 GHz Water Vapor Radiometer
+    publisher: IEEE GSMM
+    date: 2018
+    link: https://ieeexplore.ieee.org/document/8439550
