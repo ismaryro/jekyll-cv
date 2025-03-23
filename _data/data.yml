@@ -1,20 +1,3 @@
-basics:
-  name: Gonzalo Andrés Burgos Fuentes
-  label: Ingeniero en Física y MSc. en Física, estudiante de MSc. en Astronomía
-  email: gburgos.work@gmail.com
-  phone: "+56 9 5171 8508"
-  website: yourwebsite.com
-  location:
-    city: Santiago
-    country: Chile
-  profiles:
-    - network: LinkedIn
-      username: fis-ing-gonzalo-burgos
-      url: https://linkedin.com/in/fis-ing-gonzalo-burgos
-    - network: GitHub
-      username: GonUchile
-      url: https://github.com/GonUchile
-
 career-profile:
   - summary: |
       Ingeniero en Física con MSc. en Física y estudiante de MSc. en Astronomía, con amplia experiencia liderando equipos de desarrollo en instrumentación astronómica de radiofrecuencia. Especializado en hardware analógico y digital para algoritmos de interferometría como VLBI, beamforming y pseudo-correlación.
@@ -43,49 +26,42 @@ experience:
   - role: Ingeniero de Proyecto
     time: 2024 - Presente
     company: Universidad de Chile
-    company_url: 
     details: |
       Líder en el desarrollo del radiotelescopio CHARTs. Desarrollo de hardware FDM/DEMUX (0.1–2.5 GHz) y sistemas digitales para correlación y detección en FPGA y GPU, conectados por red óptica de 100 GBe/s. Supervisión de estudiantes.
 
   - role: Investigador
     time: 2023 - 2024
     company: Universidad de Concepción - IIT
-    company_url: 
     details: |
       Desarrollo de radar en banda L (1–2 GHz) sobre plataforma FPGA ZCU-208. Simulación, fabricación y prueba de circuitos Tx/Rx.
 
   - role: Investigador
     time: 2023
     company: LAMP (UdeC)
-    company_url: 
     details: |
       Diseño de controlador RF (0.01–2 GHz) para láser de enfriamiento cuántico en estructura hiperfina.
 
   - role: Investigador
     time: 2017 - 2023
     company: CePIA
-    company_url: 
     details: |
       Desarrollo de back-ends digitales en FPGA, algoritmos de espectrometría, pseudo-correlación y MMIC. Coordinador de la Red Chilena de Instrumentación Astronómica (ChAIN).
 
   - role: Profesor
     time: 2023
     company: Colegio Olimpia Guzmán Bello
-    company_url: 
     details: |
       Docente de física para enseñanza media, clases basadas en experimentación.
 
   - role: Asistente de I+D
     time: 2022
     company: Universidad de Concepción
-    company_url: 
     details: |
       Desarrollo de 4 laboratorios docentes para Ingeniería Física, incluyendo procesamiento de señales, electrónica y prototipado 3D.
 
   - role: Presidente Consejo Estudiantil
     time: 2014 - 2017
     company: Universidad de Concepción
-    company_url: 
     details: |
       Apoyo estudiantil, participación en comité de carrera, acreditación y coordinación de charlas científicas.
 
@@ -117,14 +93,3 @@ languages:
     level: Nativo
   - name: Inglés
     level: B1
-
-publications:
-  - title: Ionospheric absorption with a 38 MHz ROACH-based array
-    publisher: BAAA
-    date: 2020
-    link: https://ui.adsabs.harvard.edu/abs/2020BAAA...61C..86B/abstract
-
-  - title: A Pseudo-Correlation MMIC-based 183 GHz Water Vapor Radiometer
-    publisher: IEEE GSMM
-    date: 2018
-    link: https://ieeexplore.ieee.org/document/8439550
