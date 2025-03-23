@@ -113,7 +113,7 @@ skills:
       - Procesamiento de señales, automatización de procesos
 
 languages:
-  - idiom: Español
+  - name: Español
     level: Nativo
   - idiom: Inglés
     level: B1
