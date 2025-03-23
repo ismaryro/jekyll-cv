@@ -1,95 +1,158 @@
 career-profile:
   - summary: |
-      Ingeniero en Física con MSc. en Física y estudiante de MSc. en Astronomía, con amplia experiencia liderando equipos de desarrollo en instrumentación astronómica de radiofrecuencia. Especializado en hardware analógico y digital para algoritmos de interferometría como VLBI, beamforming y pseudo-correlación.
+      Ingeniero en Física con MSc. en Física y estudiante de MSc. en Astronomía, con una amplia trayectoria liderando equipos de desarrollo en instrumentación astronómica de radiofrecuencia en las bandas milimétrica, submilimétrica, decimétrica y hectométrica, con aplicaciones en la industria. Especializado en el diseño, implementación y validación de hardware analógico y digital para algoritmos de interferometría, incluyendo VLBI (Very Long Baseline Interferometry), beamforming, pseudo-correlación, separación de banda lateral y análisis de transmisión y recepción (Tx/Rx) en distintos medios.
 
 education:
   - degree: MSc. en Astronomía
     university: Universidad de Chile
     time: 2025 - Presente
-    details: Trabajo de curso: Real-time radio transient detection using FPGA and GPU architecture
+    details: Trabajo de curso: "Real-time radio transient detection using FPGA and GPU architecture"
 
   - degree: MSc. en Física
     university: Universidad de Concepción
     time: 2023
-    details: Trabajo de curso: The Ionospheric Spectral Imager (ISI): A digital spectrometric Riometer
+    details: Trabajo de curso: "The Ionospheric Spectral Imager (ISI): A digital spectrometric Riometer"
 
   - degree: Ingeniería en Física
     university: Universidad de Concepción
-    time: hasta 2022
-    details: Trabajo de curso: Riometer digital para caracterización ionosférica
+    time: 2022
+    details: Trabajo de curso: "El riometer digital, un instrumento para la caracterización ionosférica a partir del estudio de absorción del fondo galáctico"
 
   - degree: Licenciatura en Física
     university: Universidad de Concepción
-    time: hasta 2017
+    time: 2017
+    details: Cursos destacados: Electrodinámica, Mecánica cuántica, estadística, fluidos, física del estado sólido, computación científica, teoría de circuitos, dispositivos semiconductores, circuitos digitales, procesamiento de señales
 
 experience:
   - role: Ingeniero de Proyecto
     time: 2024 - Presente
     company: Universidad de Chile
     details: |
-      Líder en el desarrollo del radiotelescopio CHARTs. Desarrollo de hardware FDM/DEMUX (0.1–2.5 GHz) y sistemas digitales para correlación y detección en FPGA y GPU, conectados por red óptica de 100 GBe/s. Supervisión de estudiantes.
+      Líder del desarrollo, construcción e implementación del radiotelescopio CHARTs. Desarrollo de hardware analógico enfocado en FDM y DEMUX (0.1–2.5 GHz). Diseño digital para algoritmos de correlación y detección de eventos transitorios en FPGA y GPU. Conexión mediante red óptica de 100 GBe/s. Gestión de estudiantes.
 
   - role: Investigador
     time: 2023 - 2024
-    company: Universidad de Concepción - IIT
+    company: Instituto de Investigaciones Tecnológicas (IIT), Universidad de Concepción
     details: |
-      Desarrollo de radar en banda L (1–2 GHz) sobre plataforma FPGA ZCU-208. Simulación, fabricación y prueba de circuitos Tx/Rx.
+      Desarrollo e implementación de un radar en banda L sobre FPGA ZCU-208. Análisis teórico, simulación, fabricación y pruebas de circuitos Tx/Rx.
 
   - role: Investigador
     time: 2023
-    company: LAMP (UdeC)
+    company: Laboratory for Atomic & Molecular Physics (LAMP)
     details: |
-      Diseño de controlador RF (0.01–2 GHz) para láser de enfriamiento cuántico en estructura hiperfina.
+      Diseño e implementación de controlador RF (0.01–2GHz) para láser de enfriamiento cuántico de estructura hiperfina.
 
   - role: Investigador
     time: 2017 - 2023
     company: CePIA
     details: |
-      Desarrollo de back-ends digitales en FPGA, algoritmos de espectrometría, pseudo-correlación y MMIC. Coordinador de la Red Chilena de Instrumentación Astronómica (ChAIN).
+      Diseño de back-ends digitales en FPGA para radiómetros de vapor de agua (183GHz y 22GHz). Espectrometría con pseudo-correlación y separación de banda lateral. Desarrollo de tecnologías MMIC y equipamiento de laboratorio. Coordinador de la Red ChAIN.
 
   - role: Profesor
     time: 2023
     company: Colegio Olimpia Guzmán Bello
     details: |
-      Docente de física para enseñanza media, clases basadas en experimentación.
+      Docente de física basada en la experimentación para alumnos de primero a cuarto medio.
 
   - role: Asistente de I+D
     time: 2022
     company: Universidad de Concepción
     details: |
-      Desarrollo de 4 laboratorios docentes para Ingeniería Física, incluyendo procesamiento de señales, electrónica y prototipado 3D.
+      Diseño de laboratorios docentes para Ingeniería Física: Procesamiento de Señales, Circuitos Digitales, Electrónica, Prototipado e Impresión 3D.
 
   - role: Presidente Consejo Estudiantil
     time: 2014 - 2017
-    company: Universidad de Concepción
+    company: Departamento de Física, Universidad de Concepción
     details: |
-      Apoyo estudiantil, participación en comité de carrera, acreditación y coordinación de charlas científicas.
+      Representante estudiantil, apoyo académico, miembro del comité de carrera en proceso de acreditación, coordinación de charlas científicas.
 
 skills:
   - name: Software y programación
     keywords:
-      - MATLAB, Simulink, AWR, HFSS, Feko
-      - Python, C, C++, Fortran, Verilog, SystemVerilog, CUDA
-      - Vivado, Xilinx SDK, Multisim, GNU Radio, Conda, VS Code
-      - Diseño de PCB en EAGLE y KiCad
+      - Diseño y simulación: MATLAB, Simulink, AWR, HFSS, Feko
+      - Lenguajes: Python, C, C++, Verilog, SystemVerilog, Fortran, CUDA
+      - Entornos: Vivado, Xilinx SDK, Multisim, GNU Radio, Spider, VS Code, Conda
+      - Diseño de PCB: EAGLE, KiCad
 
   - name: Gestión de proyectos
     keywords:
-      - Planificación estratégica, liderazgo, manejo presupuestario
-      - Transferencia tecnológica, coordinación de equipos multidisciplinarios
+      - Planificación estratégica y ejecución de proyectos científicos
+      - Coordinación de equipos multidisciplinarios en instrumentación y astronomía
+      - Postulación y administración de fondos
+      - Transferencia tecnológica e industrial
+      - Gestión presupuestaria y proveedores
 
   - name: Comunicación científica
     keywords:
-      - Publicación de artículos, redacción técnica, presentaciones internacionales
+      - Publicaciones científicas, redacción técnica, documentación de proyectos
+      - Presentaciones en conferencias internacionales
       - Inglés técnico (nivel B1)
 
   - name: Técnicas específicas
     keywords:
-      - Instrumentación de RF, pruebas con VNA, espectrómetros, FPGA, MMIC, CPU y GPU
-      - Procesamiento de señales, automatización de procesos
+      - Montaje y pruebas de RF: VNA, espectrómetros, analizadores de espectro
+      - Diseño y validación de circuitos analógicos y digitales
+      - FPGA, GPU, MMIC, automatización de procesos
+      - Procesamiento de datos y análisis de redes
 
 languages:
   - name: Español
     level: Nativo
   - name: Inglés
-    level: B1
+    level: Intermedio (B1)
+
+publications:
+  - title: Ionospheric absorption with a 38 MHz ROACH-based array
+    publisher: BAAA
+    date: 2020
+    link: https://ui.adsabs.harvard.edu/abs/2020BAAA...61C..86B/abstract
+
+  - title: A Pseudo-Correlation MMIC-based 183 GHz Water Vapor Radiometer
+    publisher: IEEE GSMM
+    date: 2018
+    link: https://ieeexplore.ieee.org/document/8439550
+
+events:
+  - name: Innovación de base científica
+    location: Universidad de Concepción, Chile
+    date: Enero 2024
+
+  - name: Workshop METAsuperficies For Radio Astronomy
+    location: Centro de Estudios Avanzados y Extensión PUCV, Santiago
+    date: Abril 2024
+
+  - name: Técnicas de Gestión de Proyectos con Fondos Estatales
+    location: Concepción
+    date: Mayo 2023
+
+  - name: IEEE GRSS SUMMER SCHOOL On Digital Agricultural Technologies
+    location: Hyderabad, India
+    date: Marzo 2023
+
+  - name: Segunda reunión anual de CATA
+    location: Hotel Pullman, Santiago
+    date: Agosto 2023
+
+  - name: Primer encuentro de transferencia del CATA
+    location: Hotel Pullman, Santiago
+    date: Agosto 2023
+
+  - name: Workshop de Instrumentación en Geociencias
+    location: Universidad Adventista (UnACH), Chillán
+    date: Octubre 2022
+
+  - name: Expocorma
+    location: Concepción, Chile
+    date: Septiembre 2022
+
+  - name: XVI Latin American Regional IAU Meeting
+    location: Antofagasta, Chile
+    date: Noviembre 2019
+
+  - name: CASPER Workshop
+    location: Guiyang City, China
+    date: Septiembre 2018
+
+  - name: XVIII SOCHIAS Annual Meeting
+    location: Universidad de La Frontera, Temuco
+    date: Septiembre 2018
