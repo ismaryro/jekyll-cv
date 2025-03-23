@@ -1,108 +1,143 @@
-name: John Doe
-support_dark_mode: true
-fork: true
+basics:
+  name: Gonzalo Andrés Burgos Fuentes
+  label: Ingeniero en Física y MSc. en Física, estudiante MSc. en Astronomía
+  email: gburgos.work@gmail.com
+  phone: "+56 9 5171 8508"
+  website: yourwebsite.com
+  location:
+    city: Santiago
+    country: Chile
+  profiles:
+    - network: LinkedIn
+      username: fis-ing-gonzalo-burgos
+      url: https://linkedin.com/in/fis-ing-gonzalo-burgos
+    - network: GitHub
+      username: GonUchile
+      url: https://github.com/GonUchile
 
-# Sidebar
-contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
-  gitlab: 
-  twitter: 
+summary: >
+  Ingeniero en Física con MSc. en Física y estudiante de MSc. en Astronomía, con una amplia trayectoria liderando equipos de desarrollo en instrumentación astronómica de radiofrecuencia. Especializado en diseño, implementación y validación de hardware analógico y digital para algoritmos de interferometría, incluyendo VLBI, beamforming y pseudo-correlación.
 
-languages:
-  - idiom: English
-  - idiom: Russian
-  - idiom: French
+experience:
+  - company: Universidad de Chile
+    position: Ingeniero de proyecto
+    location: Santiago, Chile
+    startDate: 2024-04
+    endDate: Present
+    summary: >
+      Líder del desarrollo e implementación del radiotelescopio CHARTs. Diseño de hardware analógico y digital para algoritmos de correlación y detección de eventos transitorios en plataformas FPGA y GPU.
+    highlights:
+      - Desarrollo en multiplexación FDM y demultiplexación (0.1 - 2.5 GHz)
+      - Interconexión mediante red óptica 100 GBe/s
+      - Gestión de estudiantes
+
+  - company: Universidad de Concepción - Instituto de Investigaciones Tecnológicas
+    position: Investigador
+    location: Concepción, Chile
+    startDate: 2023-07
+    endDate: 2024-03
+    summary: Desarrollo de radar en banda L sobre plataforma FPGA ZCU-208
+
+  - company: LAMP (Laboratory for Atomic & Molecular Physics)
+    position: Investigador
+    location: Concepción, Chile
+    startDate: 2023-10
+    endDate: 2023-12
+    summary: Desarrollo de controlador RF (0.01-2GHz) para láser de enfriamiento cuántico
+
+  - company: Centro para la Instrumentación Astronómica (CePIA)
+    position: Investigador
+    location: Concepción, Chile
+    startDate: 2017
+    endDate: 2023
+    summary: Desarrollo de back-ends digitales en FPGA para radiómetros y tecnologías MMIC
+
+  - company: Colegio Olimpia Guzmán Bello
+    position: Profesor
+    location: Concepción, Chile
+    startDate: 2023-04
+    endDate: 2023-06
+    summary: Docencia para estudiantes de enseñanza media, basada en la experimentación
+
+  - company: Universidad de Concepción
+    position: Asistente de I+D
+    location: Concepción, Chile
+    startDate: 2022
+    endDate: 2022
+    summary: Desarrollo de laboratorios docentes para Ingeniería Física
+
+  - company: Universidad de Concepción
+    position: Presidente Consejo Estudiantil
+    location: Concepción, Chile
+    startDate: 2014
+    endDate: 2017
+    summary: Participación en acreditación, apoyo estudiantil y divulgación científica
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+  - institution: Universidad de Chile
+    area: Astronomía
+    studyType: MSc.
+    startDate: 2025-03
+    endDate: Present
+    thesis: Real-time radio transient detection using FPGA and GPU architecture
 
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  - institution: Universidad de Concepción
+    area: Física
+    studyType: MSc.
+    startDate: 2023
+    endDate: 2023
+    thesis: The Ionospheric Spectral Imager (ISI): A digital spectrometric Riometer
 
-skills:
-  - category: Backend
-    skill: 
-      - Go
-      - Rust
-  - category: Frontend
-    skill:
-      - React
-      - Typescript
-  - category: DevOps
-    skill:
-      - Docker
-      - Kubernetes 
+  - institution: Universidad de Concepción
+    area: Ingeniería en Física
+    studyType: Ingeniería
+    endDate: 2022
+    thesis: Riometer digital para caracterización ionosférica
 
-# Profile
-profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
-
-# Experience
-experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Go, Angular, Typescript, C++
-  
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+  - institution: Universidad de Concepción
+    area: Física
+    studyType: Licenciatura
+    endDate: 2017
 
 publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
+  - name: Ionospheric absorption with a 38 MHz ROACH-based array
+    publisher: BAAA
+    releaseDate: 2020
+    url: https://ui.adsabs.harvard.edu/abs/2020BAAA...61C..86B/abstract
 
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
+  - name: A Pseudo-Correlation MMIC-based 183 GHz Water Vapor Radiometer
+    publisher: IEEE GSMM
+    releaseDate: 2018
+    url: https://ieeexplore.ieee.org/document/8439550
 
-projects:
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+skills:
+  - name: Software y programación
+    keywords:
+      - MATLAB, Simulink, AWR, HFSS, Feko
+      - Python, C, C++, Fortran, Verilog, SystemVerilog, CUDA
+      - Vivado, Xilinx SDK, Multisim, GNU Radio, Conda, VS Code
+      - Diseño de PCB en EAGLE y KiCad
 
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+  - name: Gestión de proyectos
+    keywords:
+      - Planificación estratégica, liderazgo, manejo presupuestario
+      - Transferencia tecnológica y coordinación de equipos multidisciplinarios
 
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  - name: Comunicación científica
+    keywords:
+      - Publicación de artículos, redacción técnica, presentaciones internacionales
+      - Inglés técnico (nivel B1)
+
+  - name: Técnicas específicas
+    keywords:
+      - Instrumentación de RF, montaje y pruebas con VNA, espectrómetros, FPGA, MMIC, CPU y GPU
+      - Procesamiento de señales y automatización de procesos
+
+languages:
+  - language: Español
+    fluency: Nativo
+  - language: Inglés
+    fluency: B1
+
+interests:
+  - name: Astronomía, tecnología, ciencia aplicada, docencia, divulgación científica
