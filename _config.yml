@@ -1,7 +1,7 @@
 title: CV | A jekyll template
 description:  ESTA PLANTILLA ES PARA GONZALO BURGOS
 url: https://jekyll-cv.stavrospanakakis.com
-baseurl: ''
+baseurl: 'jekyll-cv'
 theme_skin: blue
 
 sass:
