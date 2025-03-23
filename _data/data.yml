@@ -115,11 +115,8 @@ skills:
 languages:
   - name: Español
     level: Nativo
-  - idiom: Inglés
+  - name: Inglés
     level: B1
-
-interests:
-  - item: Astronomía, tecnología, ciencia aplicada, docencia, divulgación científica
 
 publications:
   - title: Ionospheric absorption with a 38 MHz ROACH-based array
